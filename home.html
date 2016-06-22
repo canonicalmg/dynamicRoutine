@@ -1,389 +1,258 @@
 <!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>home.html : /home/donowhy2/mysite/myapp/templates/home.html : Editor : donowhy2 : PythonAnywhere</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="home.html : /home/donowhy2/mysite/myapp/templates/home.html : Editor : donowhy2 : PythonAnywhere">
-        <meta name="author" content="PythonAnywhere LLP">
-        <meta name="google-site-verification" content="O4UxDrfcHjC44jybs2vajc1GgRkTKCTRgVzeV6I9V14" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Dynamic Routine Builder</title>
+  </head>
 
-        <!-- Le styles -->
-        <link rel="stylesheet" href="/static/CACHE/css/adec8a4de320.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="/static/CACHE/css/78e0af9401b1.css" type="text/css" media="screen" />
+<body>
 
-        <!-- Le javascript -->
-        <script type="text/javascript">
-            var Anywhere = {};
-            Anywhere.urls = {};
-            Anywhere.csrfToken = "ukJVMXEWRsmjLdOzwpRXRae0hZBQboQB";
-        </script>
-        <script type="text/javascript" src="/static/CACHE/js/bb247f40df4d.js"></script>
-        
-
-        <script type="text/javascript" src="/static/CACHE/js/dfbc562d12e6.js"></script>
-        
-    <script type="text/javascript">
-        $(function() {
-            $.extend(Anywhere.urls, {
-                save: "/user/donowhy2/files/home/donowhy2/mysite/myapp/templates/home.html",
-                check_hash: "/user/donowhy2/files/home/donowhy2/mysite/myapp/templates/home.html",
-                run: "/user/donowhy2/files/home/donowhy2/mysite/myapp/templates/home.html" + "?run",
-                update_editor_mode_preference: "/user/donowhy2/account/update_editor_mode_preference",
-            });
-            var filename = "/home/donowhy2/mysite/myapp/templates/home.html";
-            var hash = "ab025a48d35d088c388dbd30c68b34db";
-            Anywhere.Editor.InitialiseAce(ace, Anywhere.urls, filename, hash);
-            Anywhere.Editor.resetEditorState({pyflakes_warnings: [] });
-            $("#id_keybinding_mode_select").val("normal");
-            $("#id_keybinding_mode_select").trigger("change");
-
-            Anywhere.WebAppControl.initialize();
-
-            var consoleVisible = false;
-            Anywhere.Editor.splitPanes(consoleVisible);
-        });
-    </script>
-
-        
-
-        <!-- Le fav and touch icons -->
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
-
-
-    </head>
-
-     <body>
-        
-    <div class="navbar">
-        <div class="navbar-inner">
-            <div id="id_internal_nav_bar_container" class="container">
-                <div class="row">
-                    <div class="span4">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </a>
-                        <a class="brand" href="/"><img id="id_logo" src="/static/anywhere/images/logo-234x35.png" height="35" title="PythonAnywhere logo" alt="PythonAnywhere logo" /></a>
-
-                    </div>
-
-                    <div class="nav-collapse span8 right_hand_links">
-                        <div class="row">
-                            <ul id="id_header_links" class="nav ">
-                                <li><a id="id_feedback_link" class='feedback_link' href="">Send feedback</a></li>
-                                <li><a id="id_forums_link" href="/forums/">Forums</a></li>
-                                <li><a href="/wiki/" id="id_help_link">Help</a></li>
-                                <li><a href="http://blog.pythonanywhere.com/" id="id_blog_link">Blog</a></li>
-                                
-                                
-                                    <li><a href="/user/donowhy2/" id="id_dashboard_link">Dashboard</a></li>
-                                    <li><a href="/user/donowhy2/account/" id="id_account_link">Account</a></li>
-                                    <li><a href="/logout" id="id_logout_link">Log out</a></li>
-                                
-                            </ul>
-                        </div>
-
-                        
-                            <div class="row nice_dropdown header_second_row">
-
-                                
-
-                                
-
-                                
-
-                                
-
-                                
-
-                            </div>
-                        
-                    </div>
-                </div>
-            </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Dynamic Routine Builder</a>
         </div>
-    </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="disabled"><a href="#">Dashboard</a></li>
+            <li class="disabled"><a href="#">Settings</a></li>
+            <li class="disabled"><a href="#">Profile</a></li>
+            <li class="disabled"><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
 
-    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="http://donowhy2.pythonanywhere.com">Overview <span class="sr-only">(current)</span></a></li>
+            <li class="disabled"><a href="#">Create Routine</a></li>
+            <li class="disabled"><a href="#">Discover</a></li>
+            <li class="disabled"><a href="#">Analytics</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <!--<h1 class="page-header">Dashboard</h1>
 
 
+          <h2 class="sub-header">Section title</h2>-->
 
-        
-    
+         <!--<div class='center-block bs-callout bs-callout-primary' style='width:50%; margin-left:20%;'>
+          <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="SignUpInputEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="SignUpInputPassword" placeholder="Password">
+            </div>
+            </form>
+            <button type="submit" id="signUp" class="btn btn-info" style="width:100%;">SIGN UP FOR FREE</button>
 
+            <p>or <a href="">Sign-In</a></p>
+        </div>-->
 
-        
+            <h4>Generate a Routine</h4>
+            <p class="help-block">Enter your Bodyweight and Gender</p>
 
-<div>
-
-    <div id="id_editor_toolbar">
-
-      <span id="id_breadcrumbs_div">
-            
-                <a class="breadcrumbs_link" href="/user/donowhy2/files/">/</a> &gt;
-            
-                <a class="breadcrumbs_link" href="/user/donowhy2/files/home">home</a> &gt;
-            
-                <a class="breadcrumbs_link" href="/user/donowhy2/files/home/donowhy2">donowhy2</a> &gt;
-            
-                <a class="breadcrumbs_link" href="/user/donowhy2/files/home/donowhy2/mysite">mysite</a> &gt;
-            
-                <a class="breadcrumbs_link" href="/user/donowhy2/files/home/donowhy2/mysite/myapp">myapp</a> &gt;
-            
-                <a class="breadcrumbs_link" href="/user/donowhy2/files/home/donowhy2/mysite/myapp/templates">templates</a> &gt;
-            
-        <span id="id_file_name">home.html</span>
-        <span id="id_unsaved_changes_spacer">
-          <span id="id_unsaved_changes" class="pa_hidden">*</span>
-        </span>
-      </span>
-      <img src="/static/anywhere/images/spinner-small.gif" class="pa_hidden" id="id_save_spinner" />
-      <div id="id_editor_buttons_right" class="form-inline">
-
-          <span id="id_keyboard_shortcuts"><a href="#">Keyboard shortcuts:</a></span>
-          <select id="id_keybinding_mode_select" class="input-small">
-              <option value="normal">Normal</option>
-              <option value="vim">Vim</option>
-          </select>
-          <button class="btn btn-success" id="id_save" title="Save">Save</button>
-          <button class="btn" id="id_save_as" title="Save As">Save as...</button>
-          
-          <span id="id_save_error" class="error_message pa_hidden">There was an error saving</span>
-
-          
-          
-            <form class="reload_web_app" style="display: inline" method="POST" action="/user/donowhy2/webapps/donowhy2.pythonanywhere.com/reload">
-                <button class="btn" type="submit" title="Reload donowhy2.pythonanywhere.com">
-                    <i class="icon-refresh"></i>
-                </button>
-                <img style="display: none;" class="spinner" src="/static/anywhere/images/spinner-small.gif" />
-                <div style="display: none; clear: both;" class="error_message generic_reload_error">
-                    There was a problem. If this keeps happening, please <a href="" class="feedback_link">send us feedback</a>.
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="bodyWeight">BodyWeight</label>
+                    <input type="text" class="form-control" id="bodyWeight" placeholder="(lb)">
                 </div>
-                <div style="display: none; clear: both;" class="error_message slow_startup_error">
-                    Your webapp took a long time to reload. It probably reloaded, but we were unable to check it.
-                </div>
-                <div style="display: none; clear: both;" class="error_message virtualenv_error">
-                    There is a problem with your virtualenv setup. Look at the <b>virtualenv</b> section on the web app tab for details.
-                </div>
-                <div style="display: none; clear: both;" class="error_message cname_error">
-                    There is a problem with your DNS configuration. Take a look at the <b>DNS setup</b> section on the web app tab for details.
+                <div class="form-group">
+                    <label for="genderToggle">Gender</label>
+                    <form id="myForm">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="genderMale" value="Male" checked>
+                            Male
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="genderFemale" value="Female">
+                            Female
+                        </label>
+                    </div>
+                    </form>
                 </div>
             </form>
-          
-          
+            <hr>
+
+            <h4>Select a type of routine</h4>
+            <p class="help-block">Select your sport or hobby so that the routine is customly tailored to your activities</p>
+            <select name="list-select" id="routineDropDown">
+                <!--<option disabled value='0'>Please select a routine...</option>-->
+                <option value='0'>Bodybuilding</option>
+                <option value='1'>Powerlifting</option>
+                <option value='2'>Rock Climbing</option>
+            </select>
+            <hr>
+
+            <h4>Exercises</h4>
+            <p class="help-block">Select which exercises which you have the most recent stats for</p>
+            <div id='exerciseList'>
+
+            </div>
+            <hr>
+            <div id='exerciseForm'>
+
+            </div>
+            <div id='resultLifts'>
+
+            </div>
+            <div id="resultMusclesTitle"></div>
+            <div id='resultMuscles' class="row">
+                <div id="BeginnerMuscle" class="resultMuscleC col-md-2 col-md-offset-1"></div>
+                <div id="NoviceMuscle" class="resultMuscleC col-md-2"></div>
+                <div id="IntermediateMuscle" class="resultMuscleC col-md-2"></div>
+                <div id="AdvancedMuscle" class="resultMuscleC col-md-2"></div>
+                <div id="EliteMuscle" class="resultMuscleC col-md-2"></div>
+            </div>
+            <hr>
+
+            <div id='resultRoutine' style ="display:none;">
+                <h4>Routine</h4>
+                <div class="container">
+                <div class="table-responsive">
+                <table class="table table-hover">
+                    <tbody>
+                    <tr id='mondayRoutine'>
+                        <td><label style="text-decoration:underline;">Monday</label></td>
+                    </tr>
+                    <tr id='tuesdayRoutine'>
+                        <td><label style="text-decoration:underline;">Tuesday</label></td>
+                    </tr>
+                    <tr id='wednesdayRoutine'>
+                        <td><label style="text-decoration:underline;">Wednesday</label></td>
+                    </tr>
+                    <tr id='thursdayRoutine'>
+                        <td><label style="text-decoration:underline;">Thursday</label></td>
+                    </tr>
+                    <tr id='fridayRoutine'>
+                        <td><label style="text-decoration:underline;">Friday</label></td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+                </div>
+            </div>
+
+
+    <br>
+    <button id="createRoutine" name="singlebutton" display="width:50%;" class="center-block btn btn-primary">Create</button>
+    <div id="creationError"></div>
+
 
         </div>
-        <div class="clear"></div>
+
+        </div>
+      </div>
     </div>
+    </body>
+</html>
 
-    <div id="id_ide_split_panes">
-        <div id="id_editor">&lt;!DOCTYPE html&gt;
-&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js&quot;&gt;&lt;/script&gt;
-
-&lt;!-- Latest compiled and minified CSS --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css&quot; integrity=&quot;sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7&quot; crossorigin=&quot;anonymous&quot;&gt;
-
-&lt;!-- Optional theme --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css&quot; integrity=&quot;sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r&quot; crossorigin=&quot;anonymous&quot;&gt;
-
-&lt;!-- Latest compiled and minified JavaScript --&gt;
-&lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js&quot; integrity=&quot;sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
-
-&lt;html lang=&quot;en&quot;&gt;
-  &lt;head&gt;
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
-    &lt;!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags --&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
-    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
-
-    &lt;title&gt;Dynamic Routine Builder&lt;/title&gt;
-  &lt;/head&gt;
-
-&lt;body&gt;
-
-    &lt;nav class=&quot;navbar navbar-inverse navbar-fixed-top&quot;&gt;
-      &lt;div class=&quot;container-fluid&quot;&gt;
-        &lt;div class=&quot;navbar-header&quot;&gt;
-          &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbar&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;navbar&quot;&gt;
-            &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
-            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
-            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
-            &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
-          &lt;/button&gt;
-          &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Dynamic Routine Builder&lt;/a&gt;
-        &lt;/div&gt;
-        &lt;div id=&quot;navbar&quot; class=&quot;navbar-collapse collapse&quot;&gt;
-          &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;
-            &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;Dashboard&lt;/a&gt;&lt;/li&gt;
-            &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt;
-            &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
-            &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;Help&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-          &lt;form class=&quot;navbar-form navbar-right&quot;&gt;
-            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Search...&quot;&gt;
-          &lt;/form&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/nav&gt;
-
-    &lt;div class=&quot;container-fluid&quot;&gt;
-      &lt;div class=&quot;row&quot;&gt;
-        &lt;div class=&quot;col-sm-3 col-md-2 sidebar&quot;&gt;
-          &lt;ul class=&quot;nav nav-sidebar&quot;&gt;
-            &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;http://donowhy2.pythonanywhere.com&quot;&gt;Overview &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://donowhy2.pythonanywhere.com/create&quot;&gt;Create Routine&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://donowhy2.pythonanywhere.com/discover&quot;&gt;Discover&lt;/a&gt;&lt;/li&gt;
-            &lt;li class=&quot;disabled&quot;&gt;&lt;a href=&quot;#&quot;&gt;Analytics&lt;/a&gt;&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main&quot;&gt;
-          &lt;!--&lt;h1 class=&quot;page-header&quot;&gt;Dashboard&lt;/h1&gt;
-
-
-          &lt;h2 class=&quot;sub-header&quot;&gt;Section title&lt;/h2&gt;--&gt;
-
-         &lt;div class=&#39;center-block bs-callout bs-callout-primary&#39; style=&#39;width:50%; margin-left:20%;&#39;&gt;
-          &lt;form&gt;
-            &lt;div class=&quot;form-group&quot;&gt;
-                &lt;label for=&quot;exampleInputEmail1&quot;&gt;Email address&lt;/label&gt;
-                &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;SignUpInputEmail&quot; placeholder=&quot;Email&quot;&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;form-group&quot;&gt;
-                &lt;label for=&quot;exampleInputPassword1&quot;&gt;Password&lt;/label&gt;
-                &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;SignUpInputPassword&quot; placeholder=&quot;Password&quot;&gt;
-            &lt;/div&gt;
-            &lt;/form&gt;
-            &lt;button type=&quot;submit&quot; id=&quot;signUp&quot; class=&quot;btn btn-info&quot; style=&quot;width:100%;&quot;&gt;SIGN UP FOR FREE&lt;/button&gt;
-
-            &lt;p&gt;or &lt;a href=&quot;&quot;&gt;Sign-In&lt;/a&gt;&lt;/p&gt;
-        &lt;/div&gt;
-
-        &lt;div class=&quot;bs-callout bs-callout-primary&quot; style=&quot;width:70%; margin-left:10%;&quot;&gt;
-            &lt;h4&gt;Lifting Stats&lt;/h4&gt;
-
-    &lt;p&gt;Select a Routine&lt;/p&gt;&lt;select name=&quot;list-select&quot; id=&quot;routineDropDown&quot;&gt;
-        &lt;option disabled value=&#39;0&#39;&gt;Please select a routine...&lt;/option&gt;
-    &lt;/select&gt;
-
-&lt;form class=&quot;form-horizontal&quot;&gt;
-&lt;fieldset&gt;
-&lt;!-- Text input--&gt;
-
-&lt;div class=&quot;form-group&quot;&gt;
-  &lt;label class=&quot;col-md-4 control-label&quot; for=&quot;prependedtext&quot;&gt;Bench Press&lt;/label&gt;
-  &lt;div class=&quot;col-md-4&quot;&gt;
-    &lt;div class=&quot;input-group&quot;&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;weightAmountBP&quot; placeholder=&quot;lb&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;repsAmountBP&quot; placeholder=&quot;reps&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;form-group&quot;&gt;
-  &lt;label class=&quot;col-md-4 control-label&quot; for=&quot;prependedtext&quot;&gt;Deadlift&lt;/label&gt;
-  &lt;div class=&quot;col-md-4&quot;&gt;
-    &lt;div class=&quot;input-group&quot;&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;weightAmountDL&quot; placeholder=&quot;lb&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;repsAmountDL&quot; placeholder=&quot;reps&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;form-group&quot;&gt;
-  &lt;label class=&quot;col-md-4 control-label&quot; for=&quot;prependedtext&quot;&gt;Back Squat&lt;/label&gt;
-  &lt;div class=&quot;col-md-4&quot;&gt;
-    &lt;div class=&quot;input-group&quot;&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;weightAmountBS&quot; placeholder=&quot;lb&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;repsAmountBS&quot; placeholder=&quot;reps&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;form-group&quot;&gt;
-  &lt;label class=&quot;col-md-4 control-label&quot; for=&quot;prependedtext&quot;&gt;Pullup&lt;/label&gt;
-  &lt;div class=&quot;col-md-4&quot;&gt;
-    &lt;div class=&quot;input-group&quot;&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;weightAmountPU&quot; placeholder=&quot;lb&quot;&gt;&lt;/div&gt;
-        &lt;div class=&quot;input-group-addon&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;repsAmountPU&quot; placeholder=&quot;reps&quot;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p class=&quot;help-block&quot;&gt;help&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/fieldset&gt;
-
-&lt;/form&gt;
-    &lt;button id=&quot;calculateStats&quot; name=&quot;singlebutton&quot; display=&quot;width:50%;&quot; class=&quot;center-block btn btn-primary&quot;&gt;Calculate&lt;/button&gt;
-    &lt;div id=&quot;errorString&quot;&gt;&lt;/div&gt;
-
-        &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-
-&lt;script&gt;
+<script>
 function getCookie(c_name) {
-        if(document.cookie.length &gt; 0) {
-            c_start = document.cookie.indexOf(c_name + &quot;=&quot;);
+        if(document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=");
             if(c_start != -1) {
                 c_start = c_start + c_name.length + 1;
-                c_end = document.cookie.indexOf(&quot;;&quot;, c_start);
+                c_end = document.cookie.indexOf(";", c_start);
                 if(c_end == -1) c_end = document.cookie.length;
                 return unescape(document.cookie.substring(c_start,c_end));
             }
         }
-        return &quot;&quot;;
+        return "";
     }
-var csrftoken = getCookie(&#39;csrftoken&#39;);
+var csrftoken = getCookie('csrftoken');
 
 function csrfSafeMethod(method) {
     // these HTTP methods do not require CSRF protection
     return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
 }
 
-
-    populateDropDowns();
+function scrollIntoView(eleID) {
+    var e = document.getElementById(eleID);
+    if (!!e && e.scrollIntoView) {
+        e.scrollIntoView();
+    }
+}
+$('[data-toggle="tooltip"]').tooltip();
+    /*populateDropDowns();
     function populateDropDowns(){
-        console.log(&quot;entered&quot;);
+        console.log("entered");
         $.ajax({
-                type: &#39;GET&#39;,
-                url: &#39;getRoutines/&#39;,
+                type: 'GET',
+                url: 'getRoutines/',
                 async:true,
                 headers : {
-                    &quot;X-CSRFToken&quot;: getCookie(&quot;csrftoken&quot;)
+                    "X-CSRFToken": getCookie("csrftoken")
                 },
                 success: function(json) {
-                    $(&quot;#routineDropDown&quot;).empty();
-                    for(var i=0; i &lt; json.data.length; i++){
-                        $(&quot;#routineDropDown&quot;).append(json.data[i][0]);
+                    $("#routineDropDown").empty();
+                    for(var i=0; i < json.data.length; i++){
+                        $("#routineDropDown").append(json.data[i][0]);
                     }
                 }
         })
     };
 
-    $( &quot;#signUp&quot; ).click(function() {
-        var userEmail = $(&#39;#SignUpInputEmail&#39;).val() || 0;
-        var userPassword = $(&#39;#SignUpInputPassword&#39;).val() || 0;
+  var list_target_id = 'list-target'; //first select list ID
+  var initial_target_html = '<option value="">Please select a colour...</option>'; //Initial prompt for target select
+  var selectedRoutineDrop = 0;
+
+  $('#'+'routineDropDown').change(function(e) {
+    //Grab the chosen value on first select list change
+    var selectvalue = $(this).val();
+    selectedRoutineDrop = selectvalue;
+    console.log(selectvalue);
+    populateDynamicForm(selectvalue);
+  });*/
+
+
+
+    $( "#signUp" ).click(function() {
+        var userEmail = $('#SignUpInputEmail').val() || 0;
+        var userPassword = $('#SignUpInputPassword').val() || 0;
         var dataSend = [userEmail, userPassword];
         $.ajax({
-                     type: &#39;POST&#39;,
-                     url: &#39;newUser/&#39;,
+                     type: 'POST',
+                     url: 'newUser/',
                     headers : {
-                        &quot;X-CSRFToken&quot;: getCookie(&quot;csrftoken&quot;)
+                        "X-CSRFToken": getCookie("csrftoken")
                     },
-                     data: {&#39;dataSend[]&#39;: dataSend},
+                     data: {'dataSend[]': dataSend},
                      //processData: false,
                      //contentType: false,
                      success: function(json) {
@@ -392,60 +261,270 @@ function csrfSafeMethod(method) {
         })
     });
 
-  var list_target_id = &#39;list-target&#39;; //first select list ID
-  var initial_target_html = &#39;&lt;option value=&quot;&quot;&gt;Please select a colour...&lt;/option&gt;&#39;; //Initial prompt for target select
-  var selectedRoutineDrop = 0;
+  var exercises = "none";
+        $.ajax({
+                    type: 'GET',
+                    url: 'getExercises/',
+                    headers : {
+                        "X-CSRFToken": getCookie("csrftoken")
+                    },
+                    async: false,
+                    //processData: false,
+                    //contentType: false,
+                    success: function(json) {
+                        exercises = json;
+                        populateExerciseList();
+                    }
+        })
+        console.log(exercises);
 
-  //$(&#39;#&#39;+list_target_id).html(initial_target_html); //Give the target select the prompt option
-
-  $(&#39;#&#39;+&#39;routineDropDown&#39;).change(function(e) {
-    //Grab the chosen value on first select list change
-    var selectvalue = $(this).val();
-    selectedRoutineDrop = selectvalue;
-    console.log(selectvalue);
+    function populateExerciseList(){
+        for(var x=0; x < exercises.length; x++){
+            $('#exerciseList').append("<div class='checkbox'>"
+            + "<label>"
+            + "<input id='exe" + exercises[x].pk + "' class='exerciseCheck' type='checkbox'> " + exercises[x].fields.exerciseName
+            + "</label>"
+            + "</div>"
+            );
+        }
+    }
+    var boxCount = 0;
+    var selectedExercises = [];
+    $("input.exerciseCheck").change(function (value) {
+        if ($('#exe'+extractExerciseInfo(value).id).is(':checked')) {
+            $('#exe'+extractExerciseInfo(value).id).addClass('checked');
+            if(boxCount == 0){
+                $('#exerciseForm').append("<h4>Enter Weight Range</h4>"
+                                        + "<p class='help-block'>Enter the reps and weight of each lift so that we can compare which muscles are strong and weak (For better results, use rep ranges 1-3)</p>");
+                //$('#exerciseFrequency').append("<hr><h4>Enter Exercise Frequency</h4>"
+                                        //+ "<p class='help-block'>Enter the number of sets, reps, and how many days a week that each exercise should be done</p>");
+            }
+            //append this exercise
+            $('#exerciseForm').append(exerciseFormBuilder(extractExerciseInfo(value)));
+            //$('#exerciseFrequency').append(exerciseFrequencyBuilder(extractExerciseInfo(value)));
+            selectedExercises.push((extractExerciseInfo(value)).id);
+            boxCount++;
+        } else {
+            $('#exe'+extractExerciseInfo(value).id).removeClass('checked');
+            //remove this exercise
+            $("#cust"+extractExerciseInfo(value).id).remove();
+            //$("#fre"+extractExerciseInfo(value).id).remove();
+            if(boxCount == 1){
+                $('#exerciseForm').empty();
+                //$('#exerciseFrequency').empty();
+            }
+            var index = selectedExercises.indexOf(extractExerciseInfo(value).id);
+            selectedExercises.splice(index, 1);
+            boxCount--;
+        }
     });
 
+    function exerciseFrequencyBuilder(value){
+        var returnedHtml =  "<div id='fre" + value.id + "' class='form-group' style='margin-bottom:5px;'>"
+                            + "<form class='form-horizontal'>"
+                            + "<fieldset>"
+                            + "<label class='col-md-2 control-label' for='prependedtext'>" + value.name + "</label>"
+                            + "<div class='col-md-9'>"
+                            + "<div class='input-group'>"
+                            + "<div class='input-group-addon'><input type='number' class='form-control' id='set" + value.id + "' placeholder='Sets'></div>"
+                            + "<div class='input-group-addon'><input type='number' class='form-control' id='rep" + value.id + "' placeholder='Reps'></div>"
+                            + "<div class='input-group-addon'><input type='number' class='form-control' min='1' max='5' id='freq" + value.id + "' placeholder='Days'></div>"
+                            + "</div>"
+                            + "</div>"
+                            + "</div>"
+                            + "</fieldset>"
+                            + "</form>";
+        return returnedHtml;
+    }
 
-    $( &quot;#calculateStats&quot; ).click(function() {
-        $(&quot;#errorString&quot;).empty();
-        var benchWeight = $(&#39;#weightAmountBP&#39;).val() || 0;
-        var benchRep = $(&#39;#repsAmountBP&#39;).val() || 0;
-        var squatWeight = $(&#39;#weightAmountBS&#39;).val() || 0;
-        var squatRep = $(&#39;#repsAmountBS&#39;).val() || 0;
-        var deadWeight = $(&#39;#weightAmountDL&#39;).val() || 0;
-        var deadRep = $(&#39;#repsAmountDL&#39;).val() || 0;
-        var pullupWeight = $(&#39;#weightAmountPU&#39;).val() || 0;
-        var pullupRep = $(&#39;#repsAmountPU&#39;).val() || 0;
-        var dataSend = [benchWeight, benchRep, squatWeight, squatRep, deadWeight, deadRep, pullupWeight, pullupRep, &quot;None&quot;];
-        console.log(dataSend);
-        if(selectedRoutineDrop == 0){
-            $(&quot;#errorString&quot;).append(&quot;&lt;p style=&#39;color:red;&#39;&gt;Please select a routine from the dropdown above.&lt;/p&gt;&quot;);
-            return false;
+    function exerciseFormBuilder(value){
+        var returnedHtml =  "<div id='cust" + value.id + "' class='form-group' style='margin-bottom:5px;'>"
+                            + "<form class='form-horizontal'>"
+                            + "<fieldset>"
+                            + "<label class='col-md-2 control-label' for='prependedtext'>" + value.name + "</label>"
+                            + "<div class='col-md-9'>"
+                            + "<div class='input-group'>"
+                            + "<div class='input-group-addon'><input type='number' class='form-control' id='reps" + value.id + "' placeholder='reps'></div>"
+                            + "<div class='input-group-addon'><input type='number' class='form-control' id='weight" + value.id + "' placeholder='weight'></div>"
+                            + "</div>"
+                            + "</div>"
+                            + "</div>"
+                            + "</fieldset>"
+                            + "</form>";
+        return returnedHtml;
+    }
+
+    function extractExerciseInfo(value){
+        var name = value.currentTarget.labels[0].innerText;
+        var id = value.currentTarget.labels[0].childNodes[0].id;
+        id = id.split("exe")[1];
+        return {'name':name, 'id':id}
+    }
+
+    function extractFormInfo(value){
+        var value = parseInt(value);
+        var pk = value;
+        var reps,weight;
+        if($("#reps"+value).val()){
+            reps = parseInt($("#reps"+value).val());
         }
         else{
-            $.ajax({
-                     type: &#39;POST&#39;,
-                     url: &#39;saveStats/&#39;,
-                     /*beforeSend: function(xhr, settings) {
-                        if (!csrfSafeMethod(settings.type) &amp;&amp; !this.crossDomain) {
-                            xhr.setRequestHeader(&quot;X-CSRFToken&quot;, csrftoken);
-                        }
-                    },*/
+            $("#creationError").append("<p style='color:red;'>Please fill out the number of reps</p><br>");
+        }
+        if($("#weight"+value).val()){
+            weight = parseInt($("#weight"+value).val());
+        }
+        else{
+            $("#creationError").append("<p style='color:red;'>Please fill out the number of sets</p><br>");
+        }
+        var returnme = [pk, reps, weight];
+        for(var i=0; i < returnme.length; i++){
+            if(isNaN(returnme[i])){
+                return false;
+            }
+        }
+        return returnme;
+    }
+
+    $( "#createRoutine" ).click(function() { //probably removing this
+        $("#creationError").empty();
+        $("#resultLifts").empty();
+        $(".resultMuscleC").empty();
+        $("#resultMusclesTitle").empty();
+        if($("#bodyWeight").val()){
+              var bodyWeight = parseInt($("#bodyWeight").val());
+        }
+        else{
+             $("#creationError").append("<p style='color:red;'>Please enter your weight!</p><br>");
+             return false;
+        }
+        var data = [];
+        var dataInside = [];
+        for(var i=0; i < selectedExercises.length; i++){
+            var errorCheck = extractFormInfo(selectedExercises[i]);
+            if(errorCheck == false){
+                //undefined value somewhere
+                console.log("undefined value somewhere");
+                return false;
+            }
+            else{
+                dataInside.push(errorCheck);
+            }
+            //need pk, set, rep freq, beg, nov, int, adv, elite
+        }
+        data.push(dataInside);
+        var dataSend = {gender:($("#genderMale").is(':checked')), bweight:bodyWeight, rows: data[0]};
+        console.log(dataSend);
+        $.ajax({
+                    type: 'POST',
+                    url: 'compareUser/',
                     headers : {
-                        &quot;X-CSRFToken&quot;: getCookie(&quot;csrftoken&quot;)
+                        "X-CSRFToken": getCookie("csrftoken")
                     },
-                     data: {&#39;dataSend[]&#39;: dataSend},
+                    async:false,
+                     data: {'dataSend[]': JSON.stringify(dataSend)},
                      //processData: false,
                      //contentType: false,
                      success: function(json) {
-                         console.log(json);
+                         $("#resultLifts").append("<hr>");
+                         $("#resultLifts").append("<h4>Exercise Score</h4>");
+                         for(var i=0; i < json.exerciseStats.length; i++){
+                             $("#resultLifts").append("<p>" + json.exerciseStats[i].exerciseName + " - " + json.exerciseStats[i].Value + ". Strength Score: " + json.exerciseStats[i].Strength + " with estimated 1 rep max of: " + json.exerciseStats[i].OneRepMax + "</p></br>");
+                         }
+                         $("#resultLifts").append("<hr>");
+                         $("#resultMusclesTitle").append("<h4>Muscle Score</h4>");
+                         $("#BeginnerMuscle").append("<label><u>Beginner</u></label>");
+                         $("#NoviceMuscle").append("<label><u>Novice</u></label>");
+                         $("#IntermediateMuscle").append("<label><u>Intermediate</u></label>");
+                         $("#AdvancedMuscle").append("<label><u>Advanced</u></label>");
+                         $("#EliteMuscle").append("<label><u>Elite</u></label>");
+                         for(var i=0; i < json.muscleStats.length; i++){
+                             $("#" + json.muscleStats[i][3] + "Muscle").append("<p>" + json.muscleStats[i][1] + " - " + json.muscleStats[i][2] + "</p>");
+                         }
+                         $("#resultRoutine").show();
+                         for(var i=0; i < json.routineMonday.length; i++){
+                             $("#mondayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineMonday[i][4] + "'>" + json.routineMonday[i][0] + "<br>" + json.routineMonday[i][2] + " x " + json.routineMonday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineTuesday.length; i++){
+                             $("#tuesdayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineTuesday[i][4] + "'>" + json.routineTuesday[i][0] + "<br>" + json.routineTuesday[i][2] + " x " + json.routineTuesday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineWednesday.length; i++){
+                             $("#wednesdayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineWednesday[i][4] + "'>" + json.routineWednesday[i][0] + "<br>" + json.routineWednesday[i][2] + " x " + json.routineWednesday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineThursday.length; i++){
+                             $("#thursdayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineThursday[i][4] + "'>" + json.routineThursday[i][0] + "<br>" + json.routineThursday[i][2] + " x " + json.routineThursday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineFriday.length; i++){
+                             $("#fridayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineFriday[i][4] + "'>" + json.routineFriday[i][0] + "<br>" + json.routineFriday[i][2] + " x " + json.routineFriday[i][3] +"</a></td>");
+                         }
+                         scrollIntoView("resultLifts");
+                     },
+                     error: function(json){
+                         console.log("ERROR", json);
                      }
-            })
-        }
+        })
+    function generateRoutineSeq(muscleStats, routineEntry){
+        $.ajax({
+                    type: 'POST',
+                    url: 'genRoutine/',
+                    headers : {
+                        "X-CSRFToken": getCookie("csrftoken")
+                    },
+                    async:false,
+                     data: {'dataSend[]': JSON.stringify(dataSend)},
+                     //processData: false,
+                     //contentType: false,
+                     success: function(json) {
+                         $("#resultLifts").append("<hr>");
+                         $("#resultLifts").append("<h4>Exercise Score</h4>");
+                         for(var i=0; i < json.exerciseStats.length; i++){
+                             $("#resultLifts").append("<p>" + json.exerciseStats[i].exerciseName + " - " + json.exerciseStats[i].Value + ". Strength Score: " + json.exerciseStats[i].Strength + " with estimated 1 rep max of: " + json.exerciseStats[i].OneRepMax + "</p></br>");
+                         }
+                         $("#resultLifts").append("<hr>");
+                         $("#resultMusclesTitle").append("<h4>Muscle Score</h4>");
+                         $("#BeginnerMuscle").append("<label><u>Beginner</u></label>");
+                         $("#NoviceMuscle").append("<label><u>Novice</u></label>");
+                         $("#IntermediateMuscle").append("<label><u>Intermediate</u></label>");
+                         $("#AdvancedMuscle").append("<label><u>Advanced</u></label>");
+                         $("#EliteMuscle").append("<label><u>Elite</u></label>");
+                         for(var i=0; i < json.muscleStats.length; i++){
+                             $("#" + json.muscleStats[i][3] + "Muscle").append("<p>" + json.muscleStats[i][1] + " - " + json.muscleStats[i][2] + "</p>");
+                         }
+                         $("#resultRoutine").show();
+                         for(var i=0; i < json.routineMonday.length; i++){
+                             $("#mondayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineMonday[i][4] + "'>" + json.routineMonday[i][0] + "<br>" + json.routineMonday[i][2] + " x " + json.routineMonday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineTuesday.length; i++){
+                             $("#tuesdayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineTuesday[i][4] + "'>" + json.routineTuesday[i][0] + "<br>" + json.routineTuesday[i][2] + " x " + json.routineTuesday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineWednesday.length; i++){
+                             $("#wednesdayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineWednesday[i][4] + "'>" + json.routineWednesday[i][0] + "<br>" + json.routineWednesday[i][2] + " x " + json.routineWednesday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineThursday.length; i++){
+                             $("#thursdayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineThursday[i][4] + "'>" + json.routineThursday[i][0] + "<br>" + json.routineThursday[i][2] + " x " + json.routineThursday[i][3] +"</a></td>");
+                         }
+                         for(var i=0; i < json.routineFriday.length; i++){
+                             $("#fridayRoutine").append("<td><a data-toggle='tooltip' title='" + json.routineFriday[i][4] + "'>" + json.routineFriday[i][0] + "<br>" + json.routineFriday[i][2] + " x " + json.routineFriday[i][3] +"</a></td>");
+                         }
+                         scrollIntoView("resultLifts");
+                     },
+                     error: function(json){
+                         console.log("ERROR", json);
+                     }
+        })
+    }
+        
     });
-&lt;/script&gt;
+</script>
 
-&lt;style&gt;
+<style>
+.table>tbody>tr>td {
+    border-top: none !important;
+}
+.table>tbody>tr {
+    border-bottom: none !important;
+}
+
  /*
  * Base structure
  */
@@ -503,13 +582,13 @@ body {
   margin-bottom: 20px;
   margin-left: -20px;
 }
-.nav-sidebar &gt; li &gt; a {
+.nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
 }
-.nav-sidebar &gt; .active &gt; a,
-.nav-sidebar &gt; .active &gt; a:hover,
-.nav-sidebar &gt; .active &gt; a:focus {
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
   color: #fff;
   background-color: #428bca;
 }
@@ -610,119 +689,4 @@ body {
 }
 
 
-&lt;/style&gt;
-</div>
-        <div id="id_ide_console">
-            
-                <div id="id_ide_console_pane_buttons">
-                    <center>
-                        
-                            <p>This is not a Python file, you can't run it here.</p>
-                        
-                    </center>
-                </div>
-                <iframe style="display: none" id="id_console" name="console" class="soft_keyboard_sensitive">
-                </iframe>
-                <div style="display: none;" class="console_limit_reached">
-                    <div class="container">
-    <div class="row">
-        <div class="span5 offset3 well">
-            <h1>Console limit reached :-/</h1>
-
-            <p>
-            With your current PythonAnywhere account you can have up to
-            2 consoles.  You can
-            have more if you
-            <a href="/user/donowhy2/account/">upgrade your account</a>!
-
-            <p>
-            Alternatively, if you don't feel like paying us more money, you
-            can <a href="/user/donowhy2/consoles/">kill some consoles on your Consoles page</a>.
-        </div>
-    </div>
-</div>
-
-
-                </div>
-            
-        </div>
-    </div>
-
-    <div id="id_go_to_line_dialog" class="pa_hidden">
-        <p class="form-inline">Line number: <input id="id_go_to_line_dialog_input" /></p>
-        <div class="dialog_buttons">
-            <button class="btn" id="id_go_to_line_dialog_ok_button">Go</button>
-            <button class="btn" id="id_go_to_line_dialog_close_button">Close</button>
-        </div>
-    </div>
-
-    <div id="id_file_changed_on_disk" class="pa_hidden">
-        <p>Are you sure you want to save it?  Alternatively, you could re-open it in a new tab to check differences</p>
-        <div class="dialog_buttons">
-            <button id="id_cancel_save" class="btn">Cancel</button>
-            <button id="id_force_save" class="btn btn-danger">Force Save</button>
-        </div>
-    </div>
-
-    <div id="id_save_as_dialog" class="pa_hidden">
-        <form>
-            <label for="id_save_as_path">Please enter a path:</label>
-            <input id="id_save_as_path" />
-            <img id="id_save_as_spinner" class="spinner pa_hidden" src="/static/anywhere/images/spinner-small.gif" />
-            <p>
-                <span id="id_save_as_error" class="error_message"></span>
-            </p>
-            <div class="dialog_buttons">
-                <button id="id_save_as_cancel" type="button" class="btn">Cancel</button>
-                <button id="id_save_as_ok" type="submit" class="btn btn-primary">Save</button>
-            </div>
-        </form>
-    </div>
-
-</div>
-
-
-        
-
-        
-
-
-        <div id="id_feedback_dialog" title="Help us improve" style="display:none">
-    <div id="id_feedback_dialog_blurb_big" class="dialog_blurb_big">
-        It's always a pleasure to hear from you!
-    </div>
-    <div id="id_feedback_dialog_blurb_small">
-        Ask us a question, or tell us what you love or hate about PythonAnywhere.<br/>
-        We'll get back to you over email ASAP.
-    </div>
-    <textarea id="id_feedback_dialog_text" rows="6"></textarea>
-    <input id="id_feedback_dialog_email_address" type="text" placeholder="Email address (optional - only necessary if you would like us to contact you)"/>
-    
-    <div id="id_feedback_dialog_error" class="pa_hidden">
-        Sorry, there was an error connecting to the server. <br/>Please try again in a few moments...
-    </div>
-    <div class="dialog_buttons">
-        <img id="id_feedback_dialog_spinner" src="/static/anywhere/images/spinner-small.gif" />
-        <button class="btn btn-primary" id="id_feedback_dialog_ok_button">OK</button>
-        <button class="btn" id="id_feedback_dialog_cancel_button">Cancel</button>
-    </div>
-</div>
-
-
-        
-            <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                ga('create', 'UA-18014859-6', 'auto');
-                ga('send', 'pageview');
-            </script>
-        
-
-        
-
-
-    </body>
-</html>
+</style>
